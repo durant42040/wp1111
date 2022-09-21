@@ -1,0 +1,422 @@
+* {
+    overflow: hidden;
+}
+html, body {
+  font-family: 'Product Sans', sans-serif;
+  font-weight: 600;
+  background: rgba(33, 33, 33, 1);
+  height: 99%;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+body > * {
+
+}
+main {
+  width: 66%;
+  height: 90%;
+}
+guests {
+  float: right;
+  width: 33%;
+  height: 90%;
+  display: flex;
+  flex-direction: row ;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content:space-evenly;
+  flex-flow: row wrap;
+}
+.guest {
+  background: rgba(62, 62, 62, 1);
+  width: 45%;
+  height: 20%;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+#guest5 {
+  width:60%;
+}
+
+footer {
+  width: 100%;
+  height: 10%;
+}
+
+.mic {
+  position: relative;
+  top: 10px;
+  right:5px;
+  float: right;
+}
+
+name {
+  color: white;
+  float: left;
+
+
+}
+
+.pin {
+    position: absolute;
+    top: 80%;
+    left: 2%;
+}
+
+.prof {
+    width: 100px;
+}
+
+
+
+#curry {
+    position: absolute;
+    left: 26%;
+    top: 35%;
+    width: 160px;
+}
+
+#anchor {
+    position: absolute;
+    left: 28.2%;
+    top: 44%;
+    display: none;
+}
+
+main:hover #anchor {
+    display: block;
+    opacity: 0.5;
+}
+
+#curry:hover ~ #anchor {
+    display: block;
+    opacity: 0.8;
+}
+
+#anchor:hover {
+    display: block;
+    opacity: 0.8 !important;
+}
+
+#pine {
+    position: absolute;
+    left: 86.8%;
+    top: 18.5%;
+}
+
+#pinename {
+    position: absolute;
+    left: 83.5%;
+    top: 32%;
+}
+
+#cena {
+    position: absolute;
+    left: 70.7%;
+    top: 18.5%;
+}
+
+#cenaname {
+    position: absolute;
+    left: 67.4%;
+    top: 32%;
+}
+
+#chad {
+    position: absolute;
+    left: 78.5%;
+    top: 58%;
+}
+
+#chadname {
+    position: absolute;
+    left: 73.5%;
+    top: 69.4%;
+}
+
+#wok {
+    position: absolute;
+    left: 86.8%;
+    top: 38%;
+}
+
+#wokname {
+    position: absolute;
+    left: 83.5%;
+    top: 50.5%;
+}
+#jesus {
+    position: absolute;
+    left: 70.7%;
+    top: 38%;
+}
+
+#jesusname {
+    position: absolute;
+    left: 67.4%;
+    top: 50.5%;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+  .guest {
+    width: 80%;
+    height: 18%;
+  }
+
+  #guest5 {
+  width:80%;
+  }
+
+  #pine {
+    position: absolute;
+    left: 77.4%;
+    top: 20%;
+}
+
+  #pinename {
+    position: absolute;
+    left: 70%;
+    top: 32.5%;
+}
+
+  #cena {
+    position: absolute;
+    left: 77.4%;
+    top: 2.6%;
+}
+
+  #cenaname {
+    position: absolute;
+    left: 70%;
+    top: 15%;
+}
+
+  #chad {
+    position: absolute;
+    left: 77.4%;
+    top: 72.5%;
+}
+
+  #chadname {
+    position: absolute;
+    left: 70%;
+    top: 84%;
+}
+
+  #wok {
+    position: absolute;
+    left: 77.4%;
+    top: 55.2%;
+}
+
+  #wokname {
+    position: absolute;
+    left: 70%;
+    top: 67%;
+}
+  #jesus {
+    position: absolute;
+    left: 77.4%;
+    top: 37.7%;
+}
+
+  #jesusname {
+    position: absolute;
+    left: 70%;
+    top: 50%;
+}
+}
+@media only screen and (max-width: 751px) {
+    guests {
+        display: none;
+    }
+    #curry {
+    position: absolute;
+    left: 38%;
+    top: 40%;
+    }
+    .mic {
+     position: absolute;
+     top: 2%;
+     left:95%;
+    }
+}
+@media only screen and (max-width: 945px) {
+    icon2 {
+    display: none;
+    }
+}
+@media only screen and (max-width: 656px) {
+    icon0 {
+    display: none;
+    }
+    icon1 {
+        position: absolute;
+        top: 90%;
+        left: 16%;
+    }
+}
+footer {
+    color: white;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+time {
+    letter-spacing: 2px;
+}
+
+icon0 {
+    position: relative;
+    left: 10px;
+    top: 16px;
+}
+
+
+
+icon {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#end {
+    width: 72px;
+}
+
+#6 {
+    position: relative;
+    top: 3px;
+}
+
+.prom {
+    background: rgba(62, 62, 62, 1);
+    color:white;
+    border-radius: 5px;
+    height: 16px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-align: center;
+    font-size: 13px;
+    font-weight: lighter;
+    padding: 0 5px;
+    position: absolute;
+    top: 87%;
+    display: none;
+
+}
+
+prompt {
+    overflow: visible;
+}
+
+#mutep {
+    left: 32%;
+}
+#camp {
+    left: 37%;
+}
+#ccp {
+    left: 42%;
+}
+#presentp {
+    left: 47%;
+}
+#dotsp {
+    left: 52%;
+}
+#endp {
+    left: 57.6%;
+}
+#ip {
+    left: 76%;
+}
+#sp {
+    left: 80.4%;
+}
+#chatp {
+    left: 83.7%;
+}
+#cubep {
+    left: 90%;
+}
+#lockp {
+    left: 93%;
+    width: 75px;
+
+}
+
+#mute:hover ~ #mutep
+{
+ display: block;
+}
+
+#cam:hover ~ #camp
+{
+ display: block;
+}
+
+#cc:hover ~ #ccp
+{
+ display: block;
+}
+
+#present:hover ~ #presentp
+{
+ display: block;
+}
+
+#dots:hover ~ #dotsp
+{
+ display: block;
+}
+
+#end:hover ~ #endp
+{
+ display: block;
+}
+
+#i:hover ~ #ip
+{
+ display: block;
+}
+
+#s:hover ~ #sp
+{
+ display: block;
+}
+
+#chat:hover ~ #chatp
+{
+ display: block;
+}
+
+#cube:hover ~ #cubep
+{
+ display: block;
+}
+
+#lock:hover ~ #lockp
+{
+ display: block;
+}
+
+#unmute {
+    position: absolute;
+    left: 34.71%;
+    top: 89.8%;
+    height: 46px;
+    width: 46px;
+    display: none;
+}
+
+
+
