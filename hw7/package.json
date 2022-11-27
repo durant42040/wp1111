@@ -1,0 +1,11 @@
+{
+  "name": "hw7",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "antd": "^4.24.1"
+  },
+  "scripts": {
+      "start" : "cd frontend && yarn start", "server": "cd backend && yarn server"}
+}
