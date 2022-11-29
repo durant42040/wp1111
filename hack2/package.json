@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "frontend": "cd ./frontend && yarn start",
+    "backend": "cd ./backend && yarn server"
+  },
+  "name": "hack2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^11.2.0"
+  }
+}
