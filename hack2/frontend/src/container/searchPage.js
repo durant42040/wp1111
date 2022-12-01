@@ -47,7 +47,7 @@ const SearchPage = () => {
         <div className='searchPageContainer'>
             {
                 restaurants.map((item) => (
-                    <div className='resBlock' id={13} key={item.id} onClick={() => {ToRestaurant(item.id)}}>
+                    <div className='resBlock' id={item.id} key={item.id} onClick={() => {ToRestaurant(item.id)}}>
                         <div className={'resImgContainer'}><img className={'resImg'} src={item.img}/></div>
                         <div className={'resInfo'}>
                             <div className={'title'}>
