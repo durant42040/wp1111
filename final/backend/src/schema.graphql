@@ -1,0 +1,28 @@
+type Query {
+  getArticles: [Description]!
+  getArticle(id: String!): Article!
+}
+type Article {
+    writer: String
+    imageURL: String
+    title: String
+    description: String
+    time: String
+    content: String
+    headline: Boolean
+    userpic: String
+    id: String
+}
+
+type Description {
+    id: String
+    imageURL: String
+    title: String
+    description: String
+    headline: Boolean
+}
+
+type Mutation {
+  createArticle(writer: String!, imageURL: String, description: String!, time: String, content: String!, title: String!, headline: Boolean!, userpic: String, id: String): Article!
+  deleteArticle(id: String!): String!
+}
