@@ -2,7 +2,7 @@
 ### 組員： 電機一  項達均
 Website: https://finalprojectnba.netlify.app/
 
-Demo:
+Demo: https://youtu.be/eYpO-ko5xqU
 ## Setup
 1. under `final`, run the following command:
 ```bash
