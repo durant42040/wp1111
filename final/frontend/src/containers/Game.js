@@ -62,7 +62,7 @@ const Game = () => {
         setTimeout(() => {
             setI(i + 1)
         }, 1000)
-    }, [i])
+    }, [])
 
     const content = () => {
         switch (active2) {
