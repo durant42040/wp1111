@@ -32,7 +32,7 @@ const BoxScoreRow = ({row}) => {
         sx={{"&:last-child td, &:last-child th": {border: 0}}}
     >
         <TableCell component="th" scope="row">{row?.player.first_name + " " + row?.player.last_name}</TableCell>
-        <TableCell align="right" sx={{fontSize: '95%'}}>{tranfermins(row?.min)}</TableCell>
+        <TableCell align="right" sx={{fontSize: '95%'}}>{row && tranfermins(row?.min)}</TableCell>
         <TableCell align="right" sx={{fontSize: '95%'}}>{row?.pts}</TableCell>
         <TableCell align="right" sx={{fontSize: '95%'}}>{row?.ast}</TableCell>
         <TableCell align="right" sx={{fontSize: '95%'}}>{row?.reb}</TableCell>
