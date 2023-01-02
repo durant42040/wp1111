@@ -31,7 +31,7 @@ The app should be up and running at `localhost:3000`.
 (**要小心日期不要換太快，因為api有限制拿資料的頻率。**)
 * 點擊任一比賽的Box Score按鈕，會redirect到：
 ![](https://i.imgur.com/aFcTn6h.png)
-可以看到Celtics輸了，爽。也可以看到的是每位上場球員的得分、籃板、助攻等等。(有時候api request不知道為什麼被block，導致跑出undefined，通常reload後就好了。)
+可以看到Celtics輸了，爽。也可以看到的是每位上場球員的得分、籃板、助攻等等。
 
 上面的Navigation Bar點擊Team Stats，會看到(也可從主頁進入)：
 ![](https://i.imgur.com/tBtVvPQ.png)
