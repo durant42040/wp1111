@@ -58,12 +58,6 @@ const Game = () => {
         getGame()
     }, [])
 
-    useEffect(() => {
-        setTimeout(() => {
-            setI(i + 1)
-        }, 1000)
-    }, [])
-
     const content = () => {
         switch (active2) {
             case 'Box Score':
