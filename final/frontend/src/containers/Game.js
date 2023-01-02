@@ -13,7 +13,7 @@ import {useData} from "../hooks/useData";
 
 const Game = () => {
     const [game, setGame] = useState(undefined)
-    const {active2, setActive2} = useData()
+    const {active2, setActive2, setI, i} = useData()
     const { id } = useParams()
     const instance = axios.create({
         baseURL: 'https://www.balldontlie.io/api/v1'
@@ -58,6 +58,12 @@ const Game = () => {
         getGame()
     }, [])
 
+    useEffect(() => {
+        setTimeout(() => {
+            setI(i + 1)
+        }, 1000)
+    }, [i])
+
     const content = () => {
         switch (active2) {
             case 'Box Score':
@@ -69,7 +75,7 @@ const Game = () => {
 
     }
 
-    if(!game) return <CircularProgress color="inherit" sx={{margin: '150px 50%'}}/>
+    if(!game || !homeBoxScore || !roadBoxScore) return <CircularProgress color="inherit" sx={{margin: '150px 50%'}}/>
     return (
         <Box sx={{marginTop: '61px'}}>
             <ScoreCard3 game={game} color={color}/>
