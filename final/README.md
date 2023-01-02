@@ -51,7 +51,7 @@ The app should be up and running at `localhost:3000`.
 ![](https://i.imgur.com/qHaEXIW.png)
 * 除了所有資料外，Write an Article變成Edit Article。編輯的所有資料都會即時更新。
 ## 使用技術/第三方套件
-* **Frontend**: Material UI, Apollo Client, Auth0, Axios, Dompurify, Reactquill, React-router-dom
+* **Frontend**: React, Material UI, Apollo Client, Auth0, Axios, Dompurify, Reactquill, React-router-dom
 * **Backend**: Graphql, uuidv4, nodemon, babel, dotenv-defaults
 * **Database**: MongoDB
 ## Code
