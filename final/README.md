@@ -1,4 +1,4 @@
-# Web Programming Final Project README -- Group #81  NBA.js
+# Web Programming Final Project README -- 第80組  NBA.js
 ### 組員： 電機一  項達均
 Website: https://finalprojectnba.netlify.app/
 
