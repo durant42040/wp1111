@@ -2,7 +2,7 @@ import {useChat} from './containers/hooks/useChat'
 import {useEffect} from "react";
 import SignIn from './containers/SignIn'
 import ChatRoom from './containers/ChatRoom'
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const Wrapper = styled.div`
   display: flex;
