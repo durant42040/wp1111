@@ -141,3 +141,6 @@ ehthumbs.db
 .Spotlight-V100
 .Trashes
 *.swp
+
+.babelrc
+.env.defaults
