@@ -16,7 +16,7 @@ const Wrapper = styled.div`
 `;
 
 const App = () => {
-    const {status, signedIn, me, setMe, setSignedIn, displayStatus} = useChat();
+    const {status, signedIn, displayStatus} = useChat();
     useEffect(() => {
         displayStatus(status)}, [status])
 
