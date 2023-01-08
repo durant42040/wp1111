@@ -24,4 +24,5 @@ const App = () => {
     )
 }
 
-export default App
+export default App;
+console.log('aaaaa')
