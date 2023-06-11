@@ -8,7 +8,6 @@ import Login from './containers/Login'
 import Article from './containers/Article'
 const pages = ['Home', 'ScoreBoard'];
 
-
 const App = () => {
 
     return (
